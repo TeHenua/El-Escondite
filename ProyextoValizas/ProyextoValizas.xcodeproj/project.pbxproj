@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		AE52CF3B20222D8000E20463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF3A20222D8000E20463 /* AppDelegate.swift */; };
 		AE52CF3D20222D8000E20463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF3C20222D8000E20463 /* ViewController.swift */; };
-		AE52CF4020222D8000E20463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE52CF3E20222D8000E20463 /* Main.storyboard */; };
 		AE52CF4220222D8000E20463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE52CF4120222D8000E20463 /* Assets.xcassets */; };
-		AE52CF4520222D8000E20463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE52CF4320222D8000E20463 /* LaunchScreen.storyboard */; };
 		AE52CF5020222D8100E20463 /* ProyextoValizasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF4F20222D8100E20463 /* ProyextoValizasTests.swift */; };
 		AE52CF5B20222D8100E20463 /* ProyextoValizasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF5A20222D8100E20463 /* ProyextoValizasUITests.swift */; };
-		AE52CF6920222E8300E20463 /* BotonConBorde.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF6820222E8300E20463 /* BotonConBorde.swift */; };
+		C308AA2A2023B5830043FF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C308AA282023B5830043FF51 /* Main.storyboard */; };
+		C326B8442023B48D00019605 /* MMSlidingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326B8422023B48C00019605 /* MMSlidingButton.swift */; };
+		C326B8452023B48D00019605 /* BotonConBorde.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326B8432023B48D00019605 /* BotonConBorde.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,7 @@
 		AE52CF3720222D8000E20463 /* ProyextoValizas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyextoValizas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52CF3A20222D8000E20463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE52CF3C20222D8000E20463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE52CF3F20222D8000E20463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE52CF4120222D8000E20463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE52CF4420222D8000E20463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE52CF4620222D8000E20463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE52CF4B20222D8100E20463 /* ProyextoValizasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyextoValizasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52CF4F20222D8100E20463 /* ProyextoValizasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyextoValizasTests.swift; sourceTree = "<group>"; };
@@ -48,7 +46,10 @@
 		AE52CF5620222D8100E20463 /* ProyextoValizasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyextoValizasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52CF5A20222D8100E20463 /* ProyextoValizasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyextoValizasUITests.swift; sourceTree = "<group>"; };
 		AE52CF5C20222D8100E20463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE52CF6820222E8300E20463 /* BotonConBorde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BotonConBorde.swift; path = "../../2ºAño Grado Superior/iOS/BOTONES REDONDOS/BotonConBorde.swift"; sourceTree = "<group>"; };
+		C308AA292023B5830043FF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C326B8422023B48C00019605 /* MMSlidingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSlidingButton.swift; sourceTree = "<group>"; };
+		C326B8432023B48D00019605 /* BotonConBorde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonConBorde.swift; sourceTree = "<group>"; };
+		C326B8462023B51C00019605 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/8fdam05/Desktop/El-Escondite/ProyextoValizas/ProyextoValizas/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +100,13 @@
 		AE52CF3920222D8000E20463 /* ProyextoValizas */ = {
 			isa = PBXGroup;
 			children = (
-				AE52CF6820222E8300E20463 /* BotonConBorde.swift */,
+				C326B8432023B48D00019605 /* BotonConBorde.swift */,
+				C326B8422023B48C00019605 /* MMSlidingButton.swift */,
 				AE52CF3A20222D8000E20463 /* AppDelegate.swift */,
 				AE52CF3C20222D8000E20463 /* ViewController.swift */,
-				AE52CF3E20222D8000E20463 /* Main.storyboard */,
+				C308AA282023B5830043FF51 /* Main.storyboard */,
 				AE52CF4120222D8000E20463 /* Assets.xcassets */,
-				AE52CF4320222D8000E20463 /* LaunchScreen.storyboard */,
+				C326B8462023B51C00019605 /* LaunchScreen.storyboard */,
 				AE52CF4620222D8000E20463 /* Info.plist */,
 			);
 			path = ProyextoValizas;
@@ -235,9 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE52CF4520222D8000E20463 /* LaunchScreen.storyboard in Resources */,
 				AE52CF4220222D8000E20463 /* Assets.xcassets in Resources */,
-				AE52CF4020222D8000E20463 /* Main.storyboard in Resources */,
+				C308AA2A2023B5830043FF51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C326B8442023B48D00019605 /* MMSlidingButton.swift in Sources */,
+				C326B8452023B48D00019605 /* BotonConBorde.swift in Sources */,
 				AE52CF3D20222D8000E20463 /* ViewController.swift in Sources */,
 				AE52CF3B20222D8000E20463 /* AppDelegate.swift in Sources */,
-				AE52CF6920222E8300E20463 /* BotonConBorde.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +302,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE52CF3E20222D8000E20463 /* Main.storyboard */ = {
+		C308AA282023B5830043FF51 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE52CF3F20222D8000E20463 /* Base */,
+				C308AA292023B5830043FF51 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AE52CF4320222D8000E20463 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE52CF4420222D8000E20463 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
