@@ -8,13 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import SRCountdownTimer
 
+class ViewController: UIViewController, SRCountdownTimerDelegate {
+
+    @IBOutlet weak var contadorSOS: SRCountdownTimer!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func SOS(_ sender: Any) {
+        contadorSOS.start(beginingValue: 3)
+        contadorSOS.delegate = self
+        
+    }
 
+    
+    
+    
+    func timerDidEnd() {
+        print("Tiempo!!!")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

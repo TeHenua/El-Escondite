@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/8fdam05/Desktop/El-Escondite/ProyextoValizas/ProyextoValizas/LaunchScreen.storyboard">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

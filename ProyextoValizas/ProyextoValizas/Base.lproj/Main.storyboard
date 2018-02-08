@@ -118,64 +118,73 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNs-OC-Taf" customClass="BotonConBorde" customModule="ProyextoValizas" customModuleProvider="target">
-                                <rect key="frame" x="40" y="476" width="295" height="54"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPu-9p-8hv" customClass="SRCountdownTimer" customModule="SRCountdownTimer">
+                                <rect key="frame" x="106" y="376" width="163" height="150"/>
+                                <color key="backgroundColor" red="0.93291288975935704" green="1" blue="0.89495069537370497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14u-xl-u0o" customClass="BotonConBorde" customModule="ProyextoValizas" customModuleProvider="target">
+                                <rect key="frame" x="135" y="534" width="105" height="54"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="SOS"/>
+                                <state key="normal" title="SOS">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="ancho">
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="circular" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="radio">
-                                        <real key="value" value="0.0"/>
+                                        <real key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="circular" value="YES"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="1" green="0.0" blue="0.2451383983" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="SW5-0y-sWh" kind="show" id="hk9-Al-8xf"/>
+                                    <action selector="SOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SMS-xJ-fEc"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="esR-jY-xZb" customClass="MMSlidingButton" customModule="ProyextoValizas" customModuleProvider="target">
-                                <rect key="frame" x="67" y="401" width="240" height="36"/>
-                                <color key="backgroundColor" red="0.44497066812771513" green="1" blue="0.95764908845665964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="buttonCornerRadius">
-                                        <real key="value" value="9"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="dragPointWidth">
-                                        <real key="value" value="30"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="v04-Ys-bQc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4fB-OP-aYB"/>
+                            <constraint firstItem="v04-Ys-bQc" firstAttribute="top" secondItem="14u-xl-u0o" secondAttribute="bottom" constant="19" id="5mi-Kn-NPH"/>
                             <constraint firstItem="IgM-kY-HTI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5r9-jh-vOE"/>
+                            <constraint firstItem="14u-xl-u0o" firstAttribute="top" secondItem="zPu-9p-8hv" secondAttribute="bottom" constant="8" symbolic="YES" id="7TN-dD-V7n"/>
                             <constraint firstItem="w0I-mp-lqj" firstAttribute="top" secondItem="Kp0-my-NqM" secondAttribute="bottom" constant="60" id="8ad-ZA-hFB"/>
                             <constraint firstItem="IgM-kY-HTI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="8fX-uW-Bzo"/>
-                            <constraint firstItem="esR-jY-xZb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="B0k-84-oS3"/>
-                            <constraint firstItem="qNs-OC-Taf" firstAttribute="top" secondItem="w0I-mp-lqj" secondAttribute="bottom" constant="120" id="HSi-ZO-xQp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kp0-my-NqM" secondAttribute="trailing" constant="40" id="J8v-w0-8UW"/>
                             <constraint firstItem="Kp0-my-NqM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Lk1-5O-9lY"/>
-                            <constraint firstItem="qNs-OC-Taf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="ONa-vO-hYM"/>
                             <constraint firstItem="v04-Ys-bQc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PTe-lm-aXJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="esR-jY-xZb" secondAttribute="trailing" constant="68" id="QA1-K1-6dz"/>
+                            <constraint firstItem="zPu-9p-8hv" firstAttribute="top" secondItem="w0I-mp-lqj" secondAttribute="bottom" constant="20" id="PzL-kn-GZR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IgM-kY-HTI" secondAttribute="trailing" constant="40" id="YBY-2S-Wed"/>
+                            <constraint firstItem="14u-xl-u0o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="aEs-79-Hfz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w0I-mp-lqj" secondAttribute="trailing" constant="40" id="aQe-of-FJg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="14u-xl-u0o" secondAttribute="trailing" constant="135" id="b0L-lP-8hD"/>
                             <constraint firstItem="w0I-mp-lqj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="bdR-BP-6RY"/>
+                            <constraint firstItem="zPu-9p-8hv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="du4-88-GSS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v04-Ys-bQc" secondAttribute="trailing" id="fOD-gL-5D4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qNs-OC-Taf" secondAttribute="trailing" constant="40" id="jaE-cX-FXf"/>
-                            <constraint firstItem="esR-jY-xZb" firstAttribute="top" secondItem="w0I-mp-lqj" secondAttribute="bottom" constant="45" id="kcN-sb-PQB"/>
-                            <constraint firstItem="qNs-OC-Taf" firstAttribute="top" secondItem="esR-jY-xZb" secondAttribute="bottom" constant="39" id="mJh-kH-SF2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zPu-9p-8hv" secondAttribute="trailing" constant="106" id="jpk-Pc-hEz"/>
                             <constraint firstItem="Kp0-my-NqM" firstAttribute="top" secondItem="IgM-kY-HTI" secondAttribute="bottom" constant="50" id="t6O-jK-Pjz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="GTv-HO-ro3"/>
+                    <connections>
+                        <outlet property="contadorSOS" destination="zPu-9p-8hv" id="f0g-mD-R27"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
