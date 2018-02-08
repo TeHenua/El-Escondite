@@ -136,6 +136,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14u-xl-u0o" customClass="BotonConBorde" customModule="ProyextoValizas" customModuleProvider="target">
                                 <rect key="frame" x="135" y="534" width="105" height="54"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="SOS">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -153,7 +154,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="SOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SMS-xJ-fEc"/>
+                                    <action selector="cancelarPulsado:" destination="BYZ-38-t0r" eventType="touchDown" id="KEl-mA-eg6"/>
+                                    <action selector="mantenerPulsado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0n-5N-Qxh"/>
                                 </connections>
                             </button>
                         </subviews>
