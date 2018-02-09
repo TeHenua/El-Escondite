@@ -1,0 +1,6 @@
+framework module Pods_ProyextoValizasUITests {
+  umbrella header "Pods-ProyextoValizasUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

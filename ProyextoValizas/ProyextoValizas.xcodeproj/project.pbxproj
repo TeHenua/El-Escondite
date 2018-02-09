@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85DBD761F6A42CAA83538176 /* Pods_ProyextoValizas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AB6EEE09EB7BC4C5CF6EF /* Pods_ProyextoValizas.framework */; };
 		AE52CF3B20222D8000E20463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF3A20222D8000E20463 /* AppDelegate.swift */; };
 		AE52CF3D20222D8000E20463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF3C20222D8000E20463 /* ViewController.swift */; };
-		AE52CF4020222D8000E20463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE52CF3E20222D8000E20463 /* Main.storyboard */; };
 		AE52CF4220222D8000E20463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE52CF4120222D8000E20463 /* Assets.xcassets */; };
-		AE52CF4520222D8000E20463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE52CF4320222D8000E20463 /* LaunchScreen.storyboard */; };
 		AE52CF5020222D8100E20463 /* ProyextoValizasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF4F20222D8100E20463 /* ProyextoValizasTests.swift */; };
 		AE52CF5B20222D8100E20463 /* ProyextoValizasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF5A20222D8100E20463 /* ProyextoValizasUITests.swift */; };
-		AE52CF6920222E8300E20463 /* BotonConBorde.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52CF6820222E8300E20463 /* BotonConBorde.swift */; };
+		C20435BA504DE2842448DFF0 /* Pods_ProyextoValizasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9673659622EBB1F85C1CDDA6 /* Pods_ProyextoValizasUITests.framework */; };
+		C308AA2A2023B5830043FF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C308AA282023B5830043FF51 /* Main.storyboard */; };
+		C326B8442023B48D00019605 /* MMSlidingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326B8422023B48C00019605 /* MMSlidingButton.swift */; };
+		C326B8452023B48D00019605 /* BotonConBorde.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326B8432023B48D00019605 /* BotonConBorde.swift */; };
+		FE672297346DC9112572A5FB /* Pods_ProyextoValizasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51711D44BE1198FE3AACCBE5 /* Pods_ProyextoValizasTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9FADCE1BD0F9EE94525DCB /* Pods-ProyextoValizas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyextoValizas.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProyextoValizas/Pods-ProyextoValizas.release.xcconfig"; sourceTree = "<group>"; };
+		2A6B824C2E42C5FF208CC9F3 /* Pods-ProyextoValizasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyextoValizasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProyextoValizasTests/Pods-ProyextoValizasTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A5AB6EEE09EB7BC4C5CF6EF /* Pods_ProyextoValizas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyextoValizas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51711D44BE1198FE3AACCBE5 /* Pods_ProyextoValizasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyextoValizasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		794744B9C26C884490B66392 /* Pods-ProyextoValizas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyextoValizas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyextoValizas/Pods-ProyextoValizas.debug.xcconfig"; sourceTree = "<group>"; };
+		9673659622EBB1F85C1CDDA6 /* Pods_ProyextoValizasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyextoValizasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52CF3720222D8000E20463 /* ProyextoValizas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyextoValizas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52CF3A20222D8000E20463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE52CF3C20222D8000E20463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE52CF3F20222D8000E20463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE52CF4120222D8000E20463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE52CF4420222D8000E20463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE52CF4620222D8000E20463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE52CF4B20222D8100E20463 /* ProyextoValizasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyextoValizasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52CF4F20222D8100E20463 /* ProyextoValizasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyextoValizasTests.swift; sourceTree = "<group>"; };
@@ -48,7 +55,13 @@
 		AE52CF5620222D8100E20463 /* ProyextoValizasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyextoValizasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52CF5A20222D8100E20463 /* ProyextoValizasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyextoValizasUITests.swift; sourceTree = "<group>"; };
 		AE52CF5C20222D8100E20463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE52CF6820222E8300E20463 /* BotonConBorde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BotonConBorde.swift; path = "../../2ºAño Grado Superior/iOS/BOTONES REDONDOS/BotonConBorde.swift"; sourceTree = "<group>"; };
+		C308AA292023B5830043FF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C326B8422023B48C00019605 /* MMSlidingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSlidingButton.swift; sourceTree = "<group>"; };
+		C326B8432023B48D00019605 /* BotonConBorde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonConBorde.swift; sourceTree = "<group>"; };
+		C326B8462023B51C00019605 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/8fdam05/Desktop/El-Escondite/ProyextoValizas/ProyextoValizas/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
+		CF2FAB9B220DCFDC315B8CF7 /* Pods-ProyextoValizasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyextoValizasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProyextoValizasUITests/Pods-ProyextoValizasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFFC7A373ED4F49B52759827 /* Pods-ProyextoValizasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyextoValizasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyextoValizasUITests/Pods-ProyextoValizasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D7B7468680CC45E3A36642 /* Pods-ProyextoValizasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyextoValizasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyextoValizasTests/Pods-ProyextoValizasTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DBD761F6A42CAA83538176 /* Pods_ProyextoValizas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE672297346DC9112572A5FB /* Pods_ProyextoValizasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20435BA504DE2842448DFF0 /* Pods_ProyextoValizasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B755E12037B6AD4682CA27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				794744B9C26C884490B66392 /* Pods-ProyextoValizas.debug.xcconfig */,
+				1D9FADCE1BD0F9EE94525DCB /* Pods-ProyextoValizas.release.xcconfig */,
+				E0D7B7468680CC45E3A36642 /* Pods-ProyextoValizasTests.debug.xcconfig */,
+				2A6B824C2E42C5FF208CC9F3 /* Pods-ProyextoValizasTests.release.xcconfig */,
+				CFFC7A373ED4F49B52759827 /* Pods-ProyextoValizasUITests.debug.xcconfig */,
+				CF2FAB9B220DCFDC315B8CF7 /* Pods-ProyextoValizasUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3184A9A6FE20045220E3F34A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AB6EEE09EB7BC4C5CF6EF /* Pods_ProyextoValizas.framework */,
+				51711D44BE1198FE3AACCBE5 /* Pods_ProyextoValizasTests.framework */,
+				9673659622EBB1F85C1CDDA6 /* Pods_ProyextoValizasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE52CF2E20222D8000E20463 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				AE52CF4E20222D8100E20463 /* ProyextoValizasTests */,
 				AE52CF5920222D8100E20463 /* ProyextoValizasUITests */,
 				AE52CF3820222D8000E20463 /* Products */,
+				06B755E12037B6AD4682CA27 /* Pods */,
+				3184A9A6FE20045220E3F34A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +140,13 @@
 		AE52CF3920222D8000E20463 /* ProyextoValizas */ = {
 			isa = PBXGroup;
 			children = (
-				AE52CF6820222E8300E20463 /* BotonConBorde.swift */,
+				C326B8432023B48D00019605 /* BotonConBorde.swift */,
+				C326B8422023B48C00019605 /* MMSlidingButton.swift */,
 				AE52CF3A20222D8000E20463 /* AppDelegate.swift */,
 				AE52CF3C20222D8000E20463 /* ViewController.swift */,
-				AE52CF3E20222D8000E20463 /* Main.storyboard */,
+				C308AA282023B5830043FF51 /* Main.storyboard */,
 				AE52CF4120222D8000E20463 /* Assets.xcassets */,
-				AE52CF4320222D8000E20463 /* LaunchScreen.storyboard */,
+				C326B8462023B51C00019605 /* LaunchScreen.storyboard */,
 				AE52CF4620222D8000E20463 /* Info.plist */,
 			);
 			path = ProyextoValizas;
@@ -135,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE52CF5F20222D8100E20463 /* Build configuration list for PBXNativeTarget "ProyextoValizas" */;
 			buildPhases = (
+				C1FCA09A22B1B491EE482083 /* [CP] Check Pods Manifest.lock */,
 				AE52CF3320222D8000E20463 /* Sources */,
 				AE52CF3420222D8000E20463 /* Frameworks */,
 				AE52CF3520222D8000E20463 /* Resources */,
+				0A8AA2B0FBDF353C32D0FCD3 /* [CP] Embed Pods Frameworks */,
+				10352E3F577B5FA5F6820DAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE52CF6220222D8100E20463 /* Build configuration list for PBXNativeTarget "ProyextoValizasTests" */;
 			buildPhases = (
+				E98F3BD328D1EE98EEA456B5 /* [CP] Check Pods Manifest.lock */,
 				AE52CF4720222D8100E20463 /* Sources */,
 				AE52CF4820222D8100E20463 /* Frameworks */,
 				AE52CF4920222D8100E20463 /* Resources */,
+				30E29464B492068E6B2036AB /* [CP] Embed Pods Frameworks */,
+				5FE2FD61F46F7B7CE361637D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE52CF6520222D8100E20463 /* Build configuration list for PBXNativeTarget "ProyextoValizasUITests" */;
 			buildPhases = (
+				726597D1A51C30FC2AA2F054 /* [CP] Check Pods Manifest.lock */,
 				AE52CF5220222D8100E20463 /* Sources */,
 				AE52CF5320222D8100E20463 /* Frameworks */,
 				AE52CF5420222D8100E20463 /* Resources */,
+				9C1C4682FAB89B95F3CFD214 /* [CP] Embed Pods Frameworks */,
+				932EFC899B2827BBA272BC98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE52CF4520222D8000E20463 /* LaunchScreen.storyboard in Resources */,
 				AE52CF4220222D8000E20463 /* Assets.xcassets in Resources */,
-				AE52CF4020222D8000E20463 /* Main.storyboard in Resources */,
+				C308AA2A2023B5830043FF51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +307,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A8AA2B0FBDF353C32D0FCD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProyextoValizas/Pods-ProyextoValizas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SRCountdownTimer/SRCountdownTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SRCountdownTimer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyextoValizas/Pods-ProyextoValizas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10352E3F577B5FA5F6820DAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyextoValizas/Pods-ProyextoValizas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30E29464B492068E6B2036AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyextoValizasTests/Pods-ProyextoValizasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE2FD61F46F7B7CE361637D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyextoValizasTests/Pods-ProyextoValizasTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		726597D1A51C30FC2AA2F054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyextoValizasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		932EFC899B2827BBA272BC98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyextoValizasUITests/Pods-ProyextoValizasUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1C4682FAB89B95F3CFD214 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyextoValizasUITests/Pods-ProyextoValizasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1FCA09A22B1B491EE482083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyextoValizas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98F3BD328D1EE98EEA456B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyextoValizasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE52CF3320222D8000E20463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C326B8442023B48D00019605 /* MMSlidingButton.swift in Sources */,
+				C326B8452023B48D00019605 /* BotonConBorde.swift in Sources */,
 				AE52CF3D20222D8000E20463 /* ViewController.swift in Sources */,
 				AE52CF3B20222D8000E20463 /* AppDelegate.swift in Sources */,
-				AE52CF6920222E8300E20463 /* BotonConBorde.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +501,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE52CF3E20222D8000E20463 /* Main.storyboard */ = {
+		C308AA282023B5830043FF51 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE52CF3F20222D8000E20463 /* Base */,
+				C308AA292023B5830043FF51 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AE52CF4320222D8000E20463 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE52CF4420222D8000E20463 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +621,7 @@
 		};
 		AE52CF6020222D8100E20463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794744B9C26C884490B66392 /* Pods-ProyextoValizas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,6 +638,7 @@
 		};
 		AE52CF6120222D8100E20463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9FADCE1BD0F9EE94525DCB /* Pods-ProyextoValizas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +655,7 @@
 		};
 		AE52CF6320222D8100E20463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D7B7468680CC45E3A36642 /* Pods-ProyextoValizasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +673,7 @@
 		};
 		AE52CF6420222D8100E20463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6B824C2E42C5FF208CC9F3 /* Pods-ProyextoValizasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +691,7 @@
 		};
 		AE52CF6620222D8100E20463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFC7A373ED4F49B52759827 /* Pods-ProyextoValizasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +708,7 @@
 		};
 		AE52CF6720222D8100E20463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2FAB9B220DCFDC315B8CF7 /* Pods-ProyextoValizasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

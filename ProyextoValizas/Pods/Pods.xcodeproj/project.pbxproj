@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9F25D61A39264130531D8B5CCA3AF3 /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */; };
+		18B8280A671328A4D93812B8257BD387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2AA0F79CEFDB1829A0C8DC743DF83D4B /* Pods-ProyextoValizasUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF460A5549FBFB6C25ECDF5694D7D9A8 /* Pods-ProyextoValizasUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB1187C00D000859B3858FDBAFD509E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		38E69378845F651AD21DE61CAEABCE07 /* SRCountdownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45736C137C7AC783BF2DB152C71FCC1D /* Pods-ProyextoValizas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08A20A95404FA88F1C3A3B7BDF1642 /* Pods-ProyextoValizas-dummy.m */; };
+		591AB26BBCA77FF946EAF9946BC8BA2D /* Pods-ProyextoValizasTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A0A4AA8D855A0206E7248C414E39CF /* Pods-ProyextoValizasTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		622AC10BBDBD91E30FDF40E8773A6B82 /* Pods-ProyextoValizasUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C711D6E4341AC3B5CE60DA76519D4D /* Pods-ProyextoValizasUITests-dummy.m */; };
+		9618F4C891871F2B4015E2F878E5CDE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB5BF7DC7CD9FC9E4BFEC62D4AD50322 /* SRCountdownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */; };
+		C26FE4DA68E7997B8FE0450BAE504C92 /* Pods-ProyextoValizasTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D8D2103BCC9C036ECDA46975471135 /* Pods-ProyextoValizasTests-dummy.m */; };
+		D634D5115A5FB46614B72C11B92E6442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FED6C30B86317655D1407D12DE3FDEDB /* Pods-ProyextoValizas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6391A7A4B9D893F6CC3241BB2F01F743 /* Pods-ProyextoValizas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB02875189BBE04908BE661E95A23FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CDCAE394BA2438B8DF5B11F614C579;
+			remoteInfo = SRCountdownTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRCountdownTimer-dummy.m"; sourceTree = "<group>"; };
+		0363BD2E78AAC55CAA0E17A93D5EAEA4 /* SRCountdownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRCountdownTimer.framework; path = SRCountdownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C711D6E4341AC3B5CE60DA76519D4D /* Pods-ProyextoValizasUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyextoValizasUITests-dummy.m"; sourceTree = "<group>"; };
+		0FD378E0D0A5BCCE811A531C2EFD65D6 /* Pods-ProyextoValizasUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasUITests-resources.sh"; sourceTree = "<group>"; };
+		1710A1496A9D7866349C0BC1DB63B2F2 /* Pods-ProyextoValizas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyextoValizas-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FF06DC179E955AAA72207B8C7740F2A /* Pods-ProyextoValizasTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyextoValizasTests.modulemap"; sourceTree = "<group>"; };
+		200052D0635040C51F28C60D0B732791 /* Pods_ProyextoValizasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizasUITests.framework; path = "Pods-ProyextoValizasUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271F70D0F66DEF2B797D945F1A406105 /* Pods-ProyextoValizasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D3DD4B93B9986C99CEF8D040113A5A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34171914D29E4170C1086AA4C11DD829 /* Pods-ProyextoValizasUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyextoValizasUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3924C84BF175FFA947BC18D983972BAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC624C4EF7E88F3810F8E22384CCB8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E79C245ECC9CB51684EE107C3F7F718 /* Pods-ProyextoValizasUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyextoValizasUITests.modulemap"; sourceTree = "<group>"; };
+		40F125B1290320C88FF86A9F8B1F7464 /* Pods-ProyextoValizasTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyextoValizasTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4758AEE868FBAE3380422134C12E5229 /* Pods-ProyextoValizasUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasUITests-frameworks.sh"; sourceTree = "<group>"; };
+		519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRCountdownTimer.xcconfig; sourceTree = "<group>"; };
+		540FB346462EB7121A29EAF6F938C851 /* Pods-ProyextoValizas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizas.debug.xcconfig"; sourceTree = "<group>"; };
+		56D8D2103BCC9C036ECDA46975471135 /* Pods-ProyextoValizasTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyextoValizasTests-dummy.m"; sourceTree = "<group>"; };
+		5D08A20A95404FA88F1C3A3B7BDF1642 /* Pods-ProyextoValizas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyextoValizas-dummy.m"; sourceTree = "<group>"; };
+		6391A7A4B9D893F6CC3241BB2F01F743 /* Pods-ProyextoValizas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyextoValizas-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75DE77E05DE6B21DFFACA176058AC3DE /* Pods-ProyextoValizas-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizas-resources.sh"; sourceTree = "<group>"; };
+		7A030BF7A4A5ADE46BFFBD9DC06C06EA /* Pods_ProyextoValizas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizas.framework; path = "Pods-ProyextoValizas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRCountdownTimer.swift; path = SRCountdownTimer/SRCountdownTimer.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988C364B6380606E8B1CFD7940566E15 /* Pods-ProyextoValizas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizas.release.xcconfig"; sourceTree = "<group>"; };
+		A49B5638808D22AEC718F01625A68901 /* Pods-ProyextoValizas-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizas-frameworks.sh"; sourceTree = "<group>"; };
+		A67E9450D2D5043A31B06B4268067885 /* Pods-ProyextoValizas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyextoValizas-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9A0343E14018D1E5190BF5289956125 /* Pods-ProyextoValizasUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyextoValizasUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB7316A304830AB9C7BF28A722B608EE /* Pods-ProyextoValizasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE6C36944023F7564BE1BB3ACE8089B /* Pods-ProyextoValizasTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyextoValizasTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE1DDAFDB82223EBAFB6E424E5270B7C /* SRCountdownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-prefix.pch"; sourceTree = "<group>"; };
+		AF159283DAD2ED7EEA945D62AF31B585 /* Pods-ProyextoValizasTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasTests-resources.sh"; sourceTree = "<group>"; };
+		AF460A5549FBFB6C25ECDF5694D7D9A8 /* Pods-ProyextoValizasUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyextoValizasUITests-umbrella.h"; sourceTree = "<group>"; };
+		BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-umbrella.h"; sourceTree = "<group>"; };
+		C4A0A4AA8D855A0206E7248C414E39CF /* Pods-ProyextoValizasTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyextoValizasTests-umbrella.h"; sourceTree = "<group>"; };
+		C8EB6BCA2C51DFB95DAB55DF20EB30AE /* Pods-ProyextoValizasTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasTests-frameworks.sh"; sourceTree = "<group>"; };
+		D56C783966BE2065CFA46364EA2B597C /* SRCountdownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRCountdownTimer.modulemap; sourceTree = "<group>"; };
+		D9C691F65F5BD32C649CE6AA120F0698 /* Pods-ProyextoValizasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6A56B92EBADE2AF06A407F7A51BE342 /* Pods-ProyextoValizasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE48C454C36B9C69447D9F7ED77AA485 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2170C118A401BA53953F6FC07BE2F3E /* Pods_ProyextoValizasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizasTests.framework; path = "Pods-ProyextoValizasTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52C701CD3DD14B386911B74A586841B /* Pods-ProyextoValizas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyextoValizas.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404FD5108D8F5B886335E95C07438DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9618F4C891871F2B4015E2F878E5CDE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FA9CBB47C363ABD01C73FB3F42803A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB1187C00D000859B3858FDBAFD509E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F058B80EFA546D2862859D315EF63CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B8280A671328A4D93812B8257BD387 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30710782DAFC6F3AF52ABA94A33E148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D634D5115A5FB46614B72C11B92E6442 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD41AC60F03C598C4066D52BC7E288A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D3036245EA92932719C58F303EFE43 /* Pods-ProyextoValizas */,
+				4A18EACA6AF2FC25578F324BA8FF71AC /* Pods-ProyextoValizasTests */,
+				D20E396A63BD4F6380A77E6659853DA6 /* Pods-ProyextoValizasUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A18EACA6AF2FC25578F324BA8FF71AC /* Pods-ProyextoValizasTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE48C454C36B9C69447D9F7ED77AA485 /* Info.plist */,
+				1FF06DC179E955AAA72207B8C7740F2A /* Pods-ProyextoValizasTests.modulemap */,
+				ABE6C36944023F7564BE1BB3ACE8089B /* Pods-ProyextoValizasTests-acknowledgements.markdown */,
+				40F125B1290320C88FF86A9F8B1F7464 /* Pods-ProyextoValizasTests-acknowledgements.plist */,
+				56D8D2103BCC9C036ECDA46975471135 /* Pods-ProyextoValizasTests-dummy.m */,
+				C8EB6BCA2C51DFB95DAB55DF20EB30AE /* Pods-ProyextoValizasTests-frameworks.sh */,
+				AF159283DAD2ED7EEA945D62AF31B585 /* Pods-ProyextoValizasTests-resources.sh */,
+				C4A0A4AA8D855A0206E7248C414E39CF /* Pods-ProyextoValizasTests-umbrella.h */,
+				AB7316A304830AB9C7BF28A722B608EE /* Pods-ProyextoValizasTests.debug.xcconfig */,
+				E6A56B92EBADE2AF06A407F7A51BE342 /* Pods-ProyextoValizasTests.release.xcconfig */,
+			);
+			name = "Pods-ProyextoValizasTests";
+			path = "Target Support Files/Pods-ProyextoValizasTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */,
+				B249E3D5D3FBDE99DEE10E692101E6A5 /* Products */,
+				2BD41AC60F03C598C4066D52BC7E288A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */,
+				BA87CC02F148B96C480A01273C165082 /* Support Files */,
+			);
+			name = SRCountdownTimer;
+			path = SRCountdownTimer;
+			sourceTree = "<group>";
+		};
+		B249E3D5D3FBDE99DEE10E692101E6A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A030BF7A4A5ADE46BFFBD9DC06C06EA /* Pods_ProyextoValizas.framework */,
+				F2170C118A401BA53953F6FC07BE2F3E /* Pods_ProyextoValizasTests.framework */,
+				200052D0635040C51F28C60D0B732791 /* Pods_ProyextoValizasUITests.framework */,
+				0363BD2E78AAC55CAA0E17A93D5EAEA4 /* SRCountdownTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA87CC02F148B96C480A01273C165082 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3924C84BF175FFA947BC18D983972BAC /* Info.plist */,
+				D56C783966BE2065CFA46364EA2B597C /* SRCountdownTimer.modulemap */,
+				519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */,
+				01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */,
+				AE1DDAFDB82223EBAFB6E424E5270B7C /* SRCountdownTimer-prefix.pch */,
+				BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRCountdownTimer";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D20E396A63BD4F6380A77E6659853DA6 /* Pods-ProyextoValizasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC624C4EF7E88F3810F8E22384CCB8F /* Info.plist */,
+				3E79C245ECC9CB51684EE107C3F7F718 /* Pods-ProyextoValizasUITests.modulemap */,
+				34171914D29E4170C1086AA4C11DD829 /* Pods-ProyextoValizasUITests-acknowledgements.markdown */,
+				A9A0343E14018D1E5190BF5289956125 /* Pods-ProyextoValizasUITests-acknowledgements.plist */,
+				05C711D6E4341AC3B5CE60DA76519D4D /* Pods-ProyextoValizasUITests-dummy.m */,
+				4758AEE868FBAE3380422134C12E5229 /* Pods-ProyextoValizasUITests-frameworks.sh */,
+				0FD378E0D0A5BCCE811A531C2EFD65D6 /* Pods-ProyextoValizasUITests-resources.sh */,
+				AF460A5549FBFB6C25ECDF5694D7D9A8 /* Pods-ProyextoValizasUITests-umbrella.h */,
+				D9C691F65F5BD32C649CE6AA120F0698 /* Pods-ProyextoValizasUITests.debug.xcconfig */,
+				271F70D0F66DEF2B797D945F1A406105 /* Pods-ProyextoValizasUITests.release.xcconfig */,
+			);
+			name = "Pods-ProyextoValizasUITests";
+			path = "Target Support Files/Pods-ProyextoValizasUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8D3036245EA92932719C58F303EFE43 /* Pods-ProyextoValizas */ = {
+			isa = PBXGroup;
+			children = (
+				2D3DD4B93B9986C99CEF8D040113A5A5 /* Info.plist */,
+				F52C701CD3DD14B386911B74A586841B /* Pods-ProyextoValizas.modulemap */,
+				A67E9450D2D5043A31B06B4268067885 /* Pods-ProyextoValizas-acknowledgements.markdown */,
+				1710A1496A9D7866349C0BC1DB63B2F2 /* Pods-ProyextoValizas-acknowledgements.plist */,
+				5D08A20A95404FA88F1C3A3B7BDF1642 /* Pods-ProyextoValizas-dummy.m */,
+				A49B5638808D22AEC718F01625A68901 /* Pods-ProyextoValizas-frameworks.sh */,
+				75DE77E05DE6B21DFFACA176058AC3DE /* Pods-ProyextoValizas-resources.sh */,
+				6391A7A4B9D893F6CC3241BB2F01F743 /* Pods-ProyextoValizas-umbrella.h */,
+				540FB346462EB7121A29EAF6F938C851 /* Pods-ProyextoValizas.debug.xcconfig */,
+				988C364B6380606E8B1CFD7940566E15 /* Pods-ProyextoValizas.release.xcconfig */,
+			);
+			name = "Pods-ProyextoValizas";
+			path = "Target Support Files/Pods-ProyextoValizas";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10B7F445B3BCFC6247A49ED4C35911F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591AB26BBCA77FF946EAF9946BC8BA2D /* Pods-ProyextoValizasTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D260C21A0960F0A7D11B6DA43AEB71C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED6C30B86317655D1407D12DE3FDEDB /* Pods-ProyextoValizas-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E962EFFABA37A5F667CA248D8B1308 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E69378845F651AD21DE61CAEABCE07 /* SRCountdownTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27CFD8E804189D55CF9AD2EE72597CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA0F79CEFDB1829A0C8DC743DF83D4B /* Pods-ProyextoValizasUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E3767E4160076AAB25B37FA435EC44F /* Pods-ProyextoValizasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76EFFF85B6B3E6B831DA241049A11E1 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizasTests" */;
+			buildPhases = (
+				6FE26FB2DB6F74649C9583F2D79668AE /* Sources */,
+				7F058B80EFA546D2862859D315EF63CC /* Frameworks */,
+				10B7F445B3BCFC6247A49ED4C35911F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProyextoValizasTests";
+			productName = "Pods-ProyextoValizasTests";
+			productReference = F2170C118A401BA53953F6FC07BE2F3E /* Pods_ProyextoValizasTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		605A8DE9D3E9186DA3DD56223DE80A3E /* Pods-ProyextoValizas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B4A15718853EAF8530D22E8BEAD182 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizas" */;
+			buildPhases = (
+				2208BE670C8A3BF24375B23399485E0E /* Sources */,
+				D30710782DAFC6F3AF52ABA94A33E148 /* Frameworks */,
+				4D260C21A0960F0A7D11B6DA43AEB71C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC9E18D4651552C8134662CF02BA779 /* PBXTargetDependency */,
+			);
+			name = "Pods-ProyextoValizas";
+			productName = "Pods-ProyextoValizas";
+			productReference = 7A030BF7A4A5ADE46BFFBD9DC06C06EA /* Pods_ProyextoValizas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9234F6D1F7B9CAD9599424115E812F9C /* Pods-ProyextoValizasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B14E560A5BBD7BFD418DB527B6E02F0 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizasUITests" */;
+			buildPhases = (
+				543BE0ACD4ABE2F3DFFA1EAC16DB2F41 /* Sources */,
+				404FD5108D8F5B886335E95C07438DB7 /* Frameworks */,
+				D27CFD8E804189D55CF9AD2EE72597CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProyextoValizasUITests";
+			productName = "Pods-ProyextoValizasUITests";
+			productReference = 200052D0635040C51F28C60D0B732791 /* Pods_ProyextoValizasUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5CDCAE394BA2438B8DF5B11F614C579 /* SRCountdownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D0A4E00F5DCA724A9182CB22E0E094 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */;
+			buildPhases = (
+				7E7DB58BE66EC0AB9859D9F47EB9CEB2 /* Sources */,
+				51FA9CBB47C363ABD01C73FB3F42803A /* Frameworks */,
+				61E962EFFABA37A5F667CA248D8B1308 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRCountdownTimer;
+			productName = SRCountdownTimer;
+			productReference = 0363BD2E78AAC55CAA0E17A93D5EAEA4 /* SRCountdownTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B249E3D5D3FBDE99DEE10E692101E6A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605A8DE9D3E9186DA3DD56223DE80A3E /* Pods-ProyextoValizas */,
+				4E3767E4160076AAB25B37FA435EC44F /* Pods-ProyextoValizasTests */,
+				9234F6D1F7B9CAD9599424115E812F9C /* Pods-ProyextoValizasUITests */,
+				C5CDCAE394BA2438B8DF5B11F614C579 /* SRCountdownTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2208BE670C8A3BF24375B23399485E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45736C137C7AC783BF2DB152C71FCC1D /* Pods-ProyextoValizas-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543BE0ACD4ABE2F3DFFA1EAC16DB2F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622AC10BBDBD91E30FDF40E8773A6B82 /* Pods-ProyextoValizasUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE26FB2DB6F74649C9583F2D79668AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26FE4DA68E7997B8FE0450BAE504C92 /* Pods-ProyextoValizasTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7DB58BE66EC0AB9859D9F47EB9CEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5BF7DC7CD9FC9E4BFEC62D4AD50322 /* SRCountdownTimer-dummy.m in Sources */,
+				0A9F25D61A39264130531D8B5CCA3AF3 /* SRCountdownTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FC9E18D4651552C8134662CF02BA779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRCountdownTimer;
+			target = C5CDCAE394BA2438B8DF5B11F614C579 /* SRCountdownTimer */;
+			targetProxy = BB02875189BBE04908BE661E95A23FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E15601B0871305370CF7A2C0E8623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A56B92EBADE2AF06A407F7A51BE342 /* Pods-ProyextoValizasTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyextoValizasTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyextoValizasTests/Pods-ProyextoValizasTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProyextoValizasTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2EFF4BD18D97A6A458B298A1C8805235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540FB346462EB7121A29EAF6F938C851 /* Pods-ProyextoValizas.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyextoValizas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyextoValizas/Pods-ProyextoValizas.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProyextoValizas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46351FA0BEE40CF622C04C4DEA779B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C691F65F5BD32C649CE6AA120F0698 /* Pods-ProyextoValizasUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyextoValizasUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyextoValizasUITests/Pods-ProyextoValizasUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProyextoValizasUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60FCD43EEE93753B4A0E5153F54F5A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
+				PRODUCT_NAME = SRCountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88133775F40F2A7486BE5443FF7BAB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988C364B6380606E8B1CFD7940566E15 /* Pods-ProyextoValizas.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyextoValizas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyextoValizas/Pods-ProyextoValizas.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProyextoValizas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B829B296945840C543CE2E52451F474F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7316A304830AB9C7BF28A722B608EE /* Pods-ProyextoValizasTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyextoValizasTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyextoValizasTests/Pods-ProyextoValizasTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProyextoValizasTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C51CD2B6EB0CF828DE7C98B849655702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271F70D0F66DEF2B797D945F1A406105 /* Pods-ProyextoValizasUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyextoValizasUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyextoValizasUITests/Pods-ProyextoValizasUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProyextoValizasUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA1BB39C1D369530AF6385E6C73D102A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
+				PRODUCT_NAME = SRCountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B14E560A5BBD7BFD418DB527B6E02F0 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46351FA0BEE40CF622C04C4DEA779B2B /* Debug */,
+				C51CD2B6EB0CF828DE7C98B849655702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76EFFF85B6B3E6B831DA241049A11E1 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B829B296945840C543CE2E52451F474F /* Debug */,
+				05E15601B0871305370CF7A2C0E8623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B4A15718853EAF8530D22E8BEAD182 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFF4BD18D97A6A458B298A1C8805235 /* Debug */,
+				88133775F40F2A7486BE5443FF7BAB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D0A4E00F5DCA724A9182CB22E0E094 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1BB39C1D369530AF6385E6C73D102A /* Debug */,
+				60FCD43EEE93753B4A0E5153F54F5A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
