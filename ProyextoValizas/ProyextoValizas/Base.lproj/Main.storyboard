@@ -154,8 +154,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="cancelarPulsado:" destination="BYZ-38-t0r" eventType="touchDown" id="KEl-mA-eg6"/>
-                                    <action selector="mantenerPulsado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0n-5N-Qxh"/>
+                                    <action selector="cancelar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ud1-yc-f02"/>
+                                    <action selector="mantener:" destination="BYZ-38-t0r" eventType="touchDown" id="Up2-x2-a4g"/>
                                 </connections>
                             </button>
                         </subviews>
