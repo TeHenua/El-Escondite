@@ -7,75 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9F25D61A39264130531D8B5CCA3AF3 /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */; };
+		0085F8BD28E13A86CE992DE13ED499FC /* SRCountdownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C497B022C9C1DCFAAB900C4BE4D2705F /* SRCountdownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05B1F02560378D28FEBD4E8F6D293216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		18B8280A671328A4D93812B8257BD387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD3EDBB44523E3481B80C89FA550520 /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AA0F79CEFDB1829A0C8DC743DF83D4B /* Pods-ProyextoValizasUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF460A5549FBFB6C25ECDF5694D7D9A8 /* Pods-ProyextoValizasUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CB1187C00D000859B3858FDBAFD509E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		38E69378845F651AD21DE61CAEABCE07 /* SRCountdownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45736C137C7AC783BF2DB152C71FCC1D /* Pods-ProyextoValizas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08A20A95404FA88F1C3A3B7BDF1642 /* Pods-ProyextoValizas-dummy.m */; };
+		392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D82D4F24C10771578546E41E707928F /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = CFD621DEEF6AEB4178D645C9995A82BD /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 564314CE7EC88830A9B54E97315FEC62 /* nanopb-dummy.m */; };
+		4F728D4622C43C343A51996AA829182D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 562D9E5B64F7F8DC174452FDCFB1BC8C /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = EF31CBCE708B0747F04E8B44DB2B64ED /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = CAE63F02B71A6D6AE8F4C5B09ECCC23C /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
 		591AB26BBCA77FF946EAF9946BC8BA2D /* Pods-ProyextoValizasTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A0A4AA8D855A0206E7248C414E39CF /* Pods-ProyextoValizasTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6006067A770419B35731392ED558F69D /* Pods-ProyextoValizas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6391A7A4B9D893F6CC3241BB2F01F743 /* Pods-ProyextoValizas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		622AC10BBDBD91E30FDF40E8773A6B82 /* Pods-ProyextoValizasUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C711D6E4341AC3B5CE60DA76519D4D /* Pods-ProyextoValizasUITests-dummy.m */; };
+		806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEB0E777EBDE25F5E7CBA23270F73CF /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD108C4C7479EDBF37966DE0D776373D /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		861CC7C2A9799232B3B183B7D60C6648 /* Pods-ProyextoValizas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08A20A95404FA88F1C3A3B7BDF1642 /* Pods-ProyextoValizas-dummy.m */; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9618F4C891871F2B4015E2F878E5CDE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AB5BF7DC7CD9FC9E4BFEC62D4AD50322 /* SRCountdownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */; };
+		A427BFC8F8C1DABE049353F66A724C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B32A1E0F27176AADFF42D591654FDA37 /* SRCountdownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B27FA1C55A279F523F95461D621FB3 /* SRCountdownTimer-dummy.m */; };
+		BF65FA309DFE97FFD18FE5A44B536A40 /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D97F306B15D86CF4DC0F1A07072B57 /* SRCountdownTimer.swift */; };
 		C26FE4DA68E7997B8FE0450BAE504C92 /* Pods-ProyextoValizasTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D8D2103BCC9C036ECDA46975471135 /* Pods-ProyextoValizasTests-dummy.m */; };
-		D634D5115A5FB46614B72C11B92E6442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FED6C30B86317655D1407D12DE3FDEDB /* Pods-ProyextoValizas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6391A7A4B9D893F6CC3241BB2F01F743 /* Pods-ProyextoValizas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F52FD15B73A13669531FFB47D45DC0C /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A87AA6D36D15A0CA6978EFA190E9528 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = B641F0C7774DE41347888A525C72441A /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BBD5F3AE363342958D3FCAF5FCBB8 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B25255A52A4EF47483814F89026216A /* GoogleToolboxForMac-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BB02875189BBE04908BE661E95A23FCC /* PBXContainerItemProxy */ = {
+		1DD9AF86E455690401BFBD0A71266DD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5CDCAE394BA2438B8DF5B11F614C579;
+			remoteGlobalIDString = E4DD95323C54A78F879DAB0F1508B8E7;
+			remoteInfo = nanopb;
+		};
+		77A2654C95FB95849F3018637F522C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		AB3B80BC2A3BFA9C74619D95F8407ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6156EFAB7AC07310289848859BF612D9;
 			remoteInfo = SRCountdownTimer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRCountdownTimer-dummy.m"; sourceTree = "<group>"; };
-		0363BD2E78AAC55CAA0E17A93D5EAEA4 /* SRCountdownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRCountdownTimer.framework; path = SRCountdownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C711D6E4341AC3B5CE60DA76519D4D /* Pods-ProyextoValizasUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyextoValizasUITests-dummy.m"; sourceTree = "<group>"; };
+		06FBEFB17F1AA9506365A537770EF21E /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
+		079D16DE58DAA70B27DB3317D90BB026 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		0859706D815B71A2BD903B552BE686D3 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		0F52FD15B73A13669531FFB47D45DC0C /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		0FD378E0D0A5BCCE811A531C2EFD65D6 /* Pods-ProyextoValizasUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasUITests-resources.sh"; sourceTree = "<group>"; };
 		1710A1496A9D7866349C0BC1DB63B2F2 /* Pods-ProyextoValizas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyextoValizas-acknowledgements.plist"; sourceTree = "<group>"; };
 		1FF06DC179E955AAA72207B8C7740F2A /* Pods-ProyextoValizasTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyextoValizasTests.modulemap"; sourceTree = "<group>"; };
-		200052D0635040C51F28C60D0B732791 /* Pods_ProyextoValizasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizasUITests.framework; path = "Pods-ProyextoValizasUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249BBD5F3AE363342958D3FCAF5FCBB8 /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
 		271F70D0F66DEF2B797D945F1A406105 /* Pods-ProyextoValizasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2D3DD4B93B9986C99CEF8D040113A5A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D97F306B15D86CF4DC0F1A07072B57 /* SRCountdownTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRCountdownTimer.swift; path = SRCountdownTimer/SRCountdownTimer.swift; sourceTree = "<group>"; };
 		34171914D29E4170C1086AA4C11DD829 /* Pods-ProyextoValizasUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyextoValizasUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3924C84BF175FFA947BC18D983972BAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC624C4EF7E88F3810F8E22384CCB8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B25255A52A4EF47483814F89026216A /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 		3E79C245ECC9CB51684EE107C3F7F718 /* Pods-ProyextoValizasUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyextoValizasUITests.modulemap"; sourceTree = "<group>"; };
+		4022C91A14BD0E366CF25D0FEEE6A6D5 /* Pods_ProyextoValizasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizasTests.framework; path = "Pods-ProyextoValizasTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F125B1290320C88FF86A9F8B1F7464 /* Pods-ProyextoValizasTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyextoValizasTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		45B6BB6FA359083406AEA6547637681D /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4758AEE868FBAE3380422134C12E5229 /* Pods-ProyextoValizasUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasUITests-frameworks.sh"; sourceTree = "<group>"; };
-		519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRCountdownTimer.xcconfig; sourceTree = "<group>"; };
+		51DB962324346FCDEF2C7E753BD12B71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		540FB346462EB7121A29EAF6F938C851 /* Pods-ProyextoValizas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizas.debug.xcconfig"; sourceTree = "<group>"; };
+		562D9E5B64F7F8DC174452FDCFB1BC8C /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		564314CE7EC88830A9B54E97315FEC62 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
 		56D8D2103BCC9C036ECDA46975471135 /* Pods-ProyextoValizasTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyextoValizasTests-dummy.m"; sourceTree = "<group>"; };
 		5D08A20A95404FA88F1C3A3B7BDF1642 /* Pods-ProyextoValizas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyextoValizas-dummy.m"; sourceTree = "<group>"; };
 		6391A7A4B9D893F6CC3241BB2F01F743 /* Pods-ProyextoValizas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyextoValizas-umbrella.h"; sourceTree = "<group>"; };
+		6587818BAD49D3C439C0F82D0E3DE995 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		684171334720DCE1496A825D7A48DECE /* SRCountdownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRCountdownTimer.framework; path = SRCountdownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		715097FB70BFB9494D9ACE7C06A929FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75DE77E05DE6B21DFFACA176058AC3DE /* Pods-ProyextoValizas-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizas-resources.sh"; sourceTree = "<group>"; };
-		7A030BF7A4A5ADE46BFFBD9DC06C06EA /* Pods_ProyextoValizas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizas.framework; path = "Pods-ProyextoValizas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRCountdownTimer.swift; path = SRCountdownTimer/SRCountdownTimer.swift; sourceTree = "<group>"; };
+		768E35E813BC86A8F36CE4D3D5627E2B /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B27FA1C55A279F523F95461D621FB3 /* SRCountdownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRCountdownTimer-dummy.m"; sourceTree = "<group>"; };
+		8BEB0E777EBDE25F5E7CBA23270F73CF /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		8D82D4F24C10771578546E41E707928F /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		91E5724DB342482D2037347EFDB559C1 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941E81A128482E6597367BCC070F515F /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
 		988C364B6380606E8B1CFD7940566E15 /* Pods-ProyextoValizas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizas.release.xcconfig"; sourceTree = "<group>"; };
+		9A87AA6D36D15A0CA6978EFA190E9528 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
+		9ADEDD4BFBCDEC75C18367D0210130F4 /* SRCountdownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRCountdownTimer.xcconfig; sourceTree = "<group>"; };
 		A49B5638808D22AEC718F01625A68901 /* Pods-ProyextoValizas-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizas-frameworks.sh"; sourceTree = "<group>"; };
+		A52F7B554AE18D3577D0D7D4D4074BBF /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		A67E9450D2D5043A31B06B4268067885 /* Pods-ProyextoValizas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyextoValizas-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9A0343E14018D1E5190BF5289956125 /* Pods-ProyextoValizasUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyextoValizasUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AB7316A304830AB9C7BF28A722B608EE /* Pods-ProyextoValizasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABE6C36944023F7564BE1BB3ACE8089B /* Pods-ProyextoValizasTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyextoValizasTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE1DDAFDB82223EBAFB6E424E5270B7C /* SRCountdownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-prefix.pch"; sourceTree = "<group>"; };
+		AE2271577D640E39F8839B93E5BC0931 /* SRCountdownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRCountdownTimer.modulemap; sourceTree = "<group>"; };
+		AEE95F2F255E52F95478C1953A11AF30 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		AF159283DAD2ED7EEA945D62AF31B585 /* Pods-ProyextoValizasTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasTests-resources.sh"; sourceTree = "<group>"; };
 		AF460A5549FBFB6C25ECDF5694D7D9A8 /* Pods-ProyextoValizasUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyextoValizasUITests-umbrella.h"; sourceTree = "<group>"; };
-		BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-umbrella.h"; sourceTree = "<group>"; };
+		B641F0C7774DE41347888A525C72441A /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		BFD3EDBB44523E3481B80C89FA550520 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
+		C497B022C9C1DCFAAB900C4BE4D2705F /* SRCountdownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-umbrella.h"; sourceTree = "<group>"; };
 		C4A0A4AA8D855A0206E7248C414E39CF /* Pods-ProyextoValizasTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyextoValizasTests-umbrella.h"; sourceTree = "<group>"; };
 		C8EB6BCA2C51DFB95DAB55DF20EB30AE /* Pods-ProyextoValizasTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyextoValizasTests-frameworks.sh"; sourceTree = "<group>"; };
-		D56C783966BE2065CFA46364EA2B597C /* SRCountdownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRCountdownTimer.modulemap; sourceTree = "<group>"; };
+		C9A8D34A06617FE8F887CEA7431AEF66 /* Pods_ProyextoValizasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizasUITests.framework; path = "Pods-ProyextoValizasUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA65F37247AB21DE768B1D589345C90A /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		CAE63F02B71A6D6AE8F4C5B09ECCC23C /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		CD108C4C7479EDBF37966DE0D776373D /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		CFD621DEEF6AEB4178D645C9995A82BD /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		D1238311728ED91AC73C2C4ED07D7103 /* SRCountdownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-prefix.pch"; sourceTree = "<group>"; };
+		D99C6EEBDBBFB5F109564E2D18F7AED4 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		D9C691F65F5BD32C649CE6AA120F0698 /* Pods-ProyextoValizasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E277785E0F7F7E6656A643CF14C2D444 /* Pods_ProyextoValizas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizas.framework; path = "Pods-ProyextoValizas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A56B92EBADE2AF06A407F7A51BE342 /* Pods-ProyextoValizasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyextoValizasTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE48C454C36B9C69447D9F7ED77AA485 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2170C118A401BA53953F6FC07BE2F3E /* Pods_ProyextoValizasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyextoValizasTests.framework; path = "Pods-ProyextoValizasTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE999F399E5E78ED42134B4CA4BE98BB /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		EF31CBCE708B0747F04E8B44DB2B64ED /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		F41087701D19A94D1E7E6371784E64EE /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
 		F52C701CD3DD14B386911B74A586841B /* Pods-ProyextoValizas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyextoValizas.modulemap"; sourceTree = "<group>"; };
+		FBAF97CEA286ED1C23B88BFD6617D76C /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +147,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51FA9CBB47C363ABD01C73FB3F42803A /* Frameworks */ = {
+		660FEA41089B00B691F4550F06A3D121 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB1187C00D000859B3858FDBAFD509E /* Foundation.framework in Frameworks */,
+				A427BFC8F8C1DABE049353F66A724C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979710B09901179D4B1AC72D6865878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F728D4622C43C343A51996AA829182D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,17 +171,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D30710782DAFC6F3AF52ABA94A33E148 /* Frameworks */ = {
+		971041836592E28ADEEDA495A96A62A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D634D5115A5FB46614B72C11B92E6442 /* Foundation.framework in Frameworks */,
+				05B1F02560378D28FEBD4E8F6D293216 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA14D22D72CB607CC9FF83657AE0639 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				715097FB70BFB9494D9ACE7C06A929FE /* Info.plist */,
+				06FBEFB17F1AA9506365A537770EF21E /* nanopb.modulemap */,
+				91E5724DB342482D2037347EFDB559C1 /* nanopb.xcconfig */,
+				564314CE7EC88830A9B54E97315FEC62 /* nanopb-dummy.m */,
+				941E81A128482E6597367BCC070F515F /* nanopb-prefix.pch */,
+				249BBD5F3AE363342958D3FCAF5FCBB8 /* nanopb-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/nanopb";
+			sourceTree = "<group>";
+		};
+		14437918E6D8CEBE8A046C9F8A96FDC2 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				0F52FD15B73A13669531FFB47D45DC0C /* GTMNSData+zlib.h */,
+				B641F0C7774DE41347888A525C72441A /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		1EF5DAAAD1CFB5D15B26EE676350BDE1 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				562D9E5B64F7F8DC174452FDCFB1BC8C /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		1FAD844CE3177B9E85D1E2DE6AF194E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51DB962324346FCDEF2C7E753BD12B71 /* Info.plist */,
+				AE2271577D640E39F8839B93E5BC0931 /* SRCountdownTimer.modulemap */,
+				9ADEDD4BFBCDEC75C18367D0210130F4 /* SRCountdownTimer.xcconfig */,
+				88B27FA1C55A279F523F95461D621FB3 /* SRCountdownTimer-dummy.m */,
+				D1238311728ED91AC73C2C4ED07D7103 /* SRCountdownTimer-prefix.pch */,
+				C497B022C9C1DCFAAB900C4BE4D2705F /* SRCountdownTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRCountdownTimer";
+			sourceTree = "<group>";
+		};
+		2192C2D495F28508ABE4C8E3121755A6 /* encode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = encode;
+			sourceTree = "<group>";
+		};
 		2BD41AC60F03C598C4066D52BC7E288A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +250,31 @@
 				D20E396A63BD4F6380A77E6659853DA6 /* Pods-ProyextoValizasUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32874A584FBA6195D0A83D642B1E22B8 /* decode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
+		3629CF597EFE7B23296BB6311EA0611E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D99C6EEBDBBFB5F109564E2D18F7AED4 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		418ADDE51791290A3893C6BDCEDC849C /* SRCountdownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				32D97F306B15D86CF4DC0F1A07072B57 /* SRCountdownTimer.swift */,
+				1FAD844CE3177B9E85D1E2DE6AF194E6 /* Support Files */,
+			);
+			name = SRCountdownTimer;
+			path = SRCountdownTimer;
 			sourceTree = "<group>";
 		};
 		4A18EACA6AF2FC25578F324BA8FF71AC /* Pods-ProyextoValizasTests */ = {
@@ -142,58 +295,91 @@
 			path = "Target Support Files/Pods-ProyextoValizasTests";
 			sourceTree = "<group>";
 		};
+		61C8DC87D9B573BBDB4D0258C73977E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE95F2F255E52F95478C1953A11AF30 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A002FA8EF3A5F67AE5803BCB821E0D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E53B1BB1B717FAE3AB8BA318CED50B3F /* Firebase */,
+				CBA5B53F5243B5C29234495D05B9C610 /* FirebaseAnalytics */,
+				6BB80DF8CD1E18ACF44A594DDC529363 /* FirebaseCore */,
+				87633261F090C24BD061F65D19098347 /* FirebaseInstanceID */,
+				E833F4166ADA1794E9E93AAA3C7AEA1F /* GoogleToolboxForMac */,
+				94A92DF0AD3126CB68FC3B433B469153 /* nanopb */,
+				418ADDE51791290A3893C6BDCEDC849C /* SRCountdownTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BB80DF8CD1E18ACF44A594DDC529363 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				3629CF597EFE7B23296BB6311EA0611E /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */,
-				B249E3D5D3FBDE99DEE10E692101E6A5 /* Products */,
+				6A002FA8EF3A5F67AE5803BCB821E0D5 /* Pods */,
+				FAECD0B6F05A342CCB8A78297CD9D688 /* Products */,
 				2BD41AC60F03C598C4066D52BC7E288A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */ = {
+		87633261F090C24BD061F65D19098347 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */,
-				BA87CC02F148B96C480A01273C165082 /* Support Files */,
+				61C8DC87D9B573BBDB4D0258C73977E8 /* Frameworks */,
 			);
-			name = SRCountdownTimer;
-			path = SRCountdownTimer;
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		B249E3D5D3FBDE99DEE10E692101E6A5 /* Products */ = {
+		94A92DF0AD3126CB68FC3B433B469153 /* nanopb */ = {
 			isa = PBXGroup;
 			children = (
-				7A030BF7A4A5ADE46BFFBD9DC06C06EA /* Pods_ProyextoValizas.framework */,
-				F2170C118A401BA53953F6FC07BE2F3E /* Pods_ProyextoValizasTests.framework */,
-				200052D0635040C51F28C60D0B732791 /* Pods_ProyextoValizasUITests.framework */,
-				0363BD2E78AAC55CAA0E17A93D5EAEA4 /* SRCountdownTimer.framework */,
+				8D82D4F24C10771578546E41E707928F /* pb.h */,
+				CFD621DEEF6AEB4178D645C9995A82BD /* pb_common.c */,
+				8BEB0E777EBDE25F5E7CBA23270F73CF /* pb_common.h */,
+				EF31CBCE708B0747F04E8B44DB2B64ED /* pb_decode.c */,
+				BFD3EDBB44523E3481B80C89FA550520 /* pb_decode.h */,
+				CAE63F02B71A6D6AE8F4C5B09ECCC23C /* pb_encode.c */,
+				9A87AA6D36D15A0CA6978EFA190E9528 /* pb_encode.h */,
+				32874A584FBA6195D0A83D642B1E22B8 /* decode */,
+				2192C2D495F28508ABE4C8E3121755A6 /* encode */,
+				0EA14D22D72CB607CC9FF83657AE0639 /* Support Files */,
 			);
-			name = Products;
+			name = nanopb;
+			path = nanopb;
 			sourceTree = "<group>";
 		};
-		B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */ = {
+		96D665071C21E28B533B63EF2C62539F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */,
+				EE999F399E5E78ED42134B4CA4BE98BB /* Firebase.h */,
 			);
-			name = Pods;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		BA87CC02F148B96C480A01273C165082 /* Support Files */ = {
+		A2A264DA3FDEDB35F0AD22723476228D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3924C84BF175FFA947BC18D983972BAC /* Info.plist */,
-				D56C783966BE2065CFA46364EA2B597C /* SRCountdownTimer.modulemap */,
-				519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */,
-				01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */,
-				AE1DDAFDB82223EBAFB6E424E5270B7C /* SRCountdownTimer-prefix.pch */,
-				BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */,
+				CA65F37247AB21DE768B1D589345C90A /* FirebaseAnalytics.framework */,
+				0859706D815B71A2BD903B552BE686D3 /* FirebaseCoreDiagnostics.framework */,
+				F41087701D19A94D1E7E6371784E64EE /* FirebaseNanoPB.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SRCountdownTimer";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -202,6 +388,15 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA5B53F5243B5C29234495D05B9C610 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				A2A264DA3FDEDB35F0AD22723476228D /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
 		D20E396A63BD4F6380A77E6659853DA6 /* Pods-ProyextoValizasUITests */ = {
@@ -230,6 +425,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E53B1BB1B717FAE3AB8BA318CED50B3F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				96D665071C21E28B533B63EF2C62539F /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		E833F4166ADA1794E9E93AAA3C7AEA1F /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				1EF5DAAAD1CFB5D15B26EE676350BDE1 /* Defines */,
+				14437918E6D8CEBE8A046C9F8A96FDC2 /* NSData+zlib */,
+				F6CF1FAE3B82670E85548BC061C52DCF /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
 		E8D3036245EA92932719C58F303EFE43 /* Pods-ProyextoValizas */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,9 +463,44 @@
 			path = "Target Support Files/Pods-ProyextoValizas";
 			sourceTree = "<group>";
 		};
+		F6CF1FAE3B82670E85548BC061C52DCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF97CEA286ED1C23B88BFD6617D76C /* GoogleToolboxForMac.modulemap */,
+				079D16DE58DAA70B27DB3317D90BB026 /* GoogleToolboxForMac.xcconfig */,
+				3B25255A52A4EF47483814F89026216A /* GoogleToolboxForMac-dummy.m */,
+				A52F7B554AE18D3577D0D7D4D4074BBF /* GoogleToolboxForMac-prefix.pch */,
+				CD108C4C7479EDBF37966DE0D776373D /* GoogleToolboxForMac-umbrella.h */,
+				6587818BAD49D3C439C0F82D0E3DE995 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		FAECD0B6F05A342CCB8A78297CD9D688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768E35E813BC86A8F36CE4D3D5627E2B /* GoogleToolboxForMac.framework */,
+				45B6BB6FA359083406AEA6547637681D /* nanopb.framework */,
+				E277785E0F7F7E6656A643CF14C2D444 /* Pods_ProyextoValizas.framework */,
+				4022C91A14BD0E366CF25D0FEEE6A6D5 /* Pods_ProyextoValizasTests.framework */,
+				C9A8D34A06617FE8F887CEA7431AEF66 /* Pods_ProyextoValizasUITests.framework */,
+				684171334720DCE1496A825D7A48DECE /* SRCountdownTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		01BA3BCBED634F4586E9912DEAD0A46E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085F8BD28E13A86CE992DE13ED499FC /* SRCountdownTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10B7F445B3BCFC6247A49ED4C35911F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,19 +509,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D260C21A0960F0A7D11B6DA43AEB71C /* Headers */ = {
+		4547B9AF8085A499AA35614798F8F9E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED6C30B86317655D1407D12DE3FDEDB /* Pods-ProyextoValizas-umbrella.h in Headers */,
+				F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */,
+				392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */,
+				806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */,
+				29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */,
+				E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61E962EFFABA37A5F667CA248D8B1308 /* Headers */ = {
+		7EF7681FB5B0CFE6AC9BD6125D322C6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E69378845F651AD21DE61CAEABCE07 /* SRCountdownTimer-umbrella.h in Headers */,
+				6006067A770419B35731392ED558F69D /* Pods-ProyextoValizas-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +537,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 768E35E813BC86A8F36CE4D3D5627E2B /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40B328625FA6BC04560C1B0D8A2A010B /* Pods-ProyextoValizas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B503DA5EEDCF014113BCCBDA8E7FC4 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizas" */;
+			buildPhases = (
+				E7D91537552FB64AF9C308EEBB1DFE3C /* Sources */,
+				6979710B09901179D4B1AC72D6865878 /* Frameworks */,
+				7EF7681FB5B0CFE6AC9BD6125D322C6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD3523FD1D75BDAEB776ACBD9650FCF /* PBXTargetDependency */,
+				9A0A99E6ABF8EE812A29344C18C3A829 /* PBXTargetDependency */,
+				E6D94AE3C1C1047B849E408A93C3B61F /* PBXTargetDependency */,
+			);
+			name = "Pods-ProyextoValizas";
+			productName = "Pods-ProyextoValizas";
+			productReference = E277785E0F7F7E6656A643CF14C2D444 /* Pods_ProyextoValizas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4E3767E4160076AAB25B37FA435EC44F /* Pods-ProyextoValizasTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A76EFFF85B6B3E6B831DA241049A11E1 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizasTests" */;
@@ -300,25 +601,24 @@
 			);
 			name = "Pods-ProyextoValizasTests";
 			productName = "Pods-ProyextoValizasTests";
-			productReference = F2170C118A401BA53953F6FC07BE2F3E /* Pods_ProyextoValizasTests.framework */;
+			productReference = 4022C91A14BD0E366CF25D0FEEE6A6D5 /* Pods_ProyextoValizasTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		605A8DE9D3E9186DA3DD56223DE80A3E /* Pods-ProyextoValizas */ = {
+		6156EFAB7AC07310289848859BF612D9 /* SRCountdownTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8B4A15718853EAF8530D22E8BEAD182 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizas" */;
+			buildConfigurationList = B4ABE3093F883A2BDB3233CFF32BA654 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */;
 			buildPhases = (
-				2208BE670C8A3BF24375B23399485E0E /* Sources */,
-				D30710782DAFC6F3AF52ABA94A33E148 /* Frameworks */,
-				4D260C21A0960F0A7D11B6DA43AEB71C /* Headers */,
+				601ED33C50A8E0A24457451F09037DA2 /* Sources */,
+				660FEA41089B00B691F4550F06A3D121 /* Frameworks */,
+				01BA3BCBED634F4586E9912DEAD0A46E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0FC9E18D4651552C8134662CF02BA779 /* PBXTargetDependency */,
 			);
-			name = "Pods-ProyextoValizas";
-			productName = "Pods-ProyextoValizas";
-			productReference = 7A030BF7A4A5ADE46BFFBD9DC06C06EA /* Pods_ProyextoValizas.framework */;
+			name = SRCountdownTimer;
+			productName = SRCountdownTimer;
+			productReference = 684171334720DCE1496A825D7A48DECE /* SRCountdownTimer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9234F6D1F7B9CAD9599424115E812F9C /* Pods-ProyextoValizasUITests */ = {
@@ -335,24 +635,24 @@
 			);
 			name = "Pods-ProyextoValizasUITests";
 			productName = "Pods-ProyextoValizasUITests";
-			productReference = 200052D0635040C51F28C60D0B732791 /* Pods_ProyextoValizasUITests.framework */;
+			productReference = C9A8D34A06617FE8F887CEA7431AEF66 /* Pods_ProyextoValizasUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C5CDCAE394BA2438B8DF5B11F614C579 /* SRCountdownTimer */ = {
+		E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8D0A4E00F5DCA724A9182CB22E0E094 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */;
+			buildConfigurationList = F118B0FA84AC9116AB2E480C302C3999 /* Build configuration list for PBXNativeTarget "nanopb" */;
 			buildPhases = (
-				7E7DB58BE66EC0AB9859D9F47EB9CEB2 /* Sources */,
-				51FA9CBB47C363ABD01C73FB3F42803A /* Frameworks */,
-				61E962EFFABA37A5F667CA248D8B1308 /* Headers */,
+				238527BE8D494586023F2A2B8A60D242 /* Sources */,
+				971041836592E28ADEEDA495A96A62A2 /* Frameworks */,
+				4547B9AF8085A499AA35614798F8F9E4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SRCountdownTimer;
-			productName = SRCountdownTimer;
-			productReference = 0363BD2E78AAC55CAA0E17A93D5EAEA4 /* SRCountdownTimer.framework */;
+			name = nanopb;
+			productName = nanopb;
+			productReference = 45B6BB6FA359083406AEA6547637681D /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -372,24 +672,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B249E3D5D3FBDE99DEE10E692101E6A5 /* Products */;
+			productRefGroup = FAECD0B6F05A342CCB8A78297CD9D688 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				605A8DE9D3E9186DA3DD56223DE80A3E /* Pods-ProyextoValizas */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */,
+				40B328625FA6BC04560C1B0D8A2A010B /* Pods-ProyextoValizas */,
 				4E3767E4160076AAB25B37FA435EC44F /* Pods-ProyextoValizasTests */,
 				9234F6D1F7B9CAD9599424115E812F9C /* Pods-ProyextoValizasUITests */,
-				C5CDCAE394BA2438B8DF5B11F614C579 /* SRCountdownTimer */,
+				6156EFAB7AC07310289848859BF612D9 /* SRCountdownTimer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2208BE670C8A3BF24375B23399485E0E /* Sources */ = {
+		238527BE8D494586023F2A2B8A60D242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45736C137C7AC783BF2DB152C71FCC1D /* Pods-ProyextoValizas-dummy.m in Sources */,
+				468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */,
+				3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */,
+				54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */,
+				55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +706,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		601ED33C50A8E0A24457451F09037DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32A1E0F27176AADFF42D591654FDA37 /* SRCountdownTimer-dummy.m in Sources */,
+				BF65FA309DFE97FFD18FE5A44B536A40 /* SRCountdownTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FE26FB2DB6F74649C9583F2D79668AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,23 +732,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E7DB58BE66EC0AB9859D9F47EB9CEB2 /* Sources */ = {
+		E7D91537552FB64AF9C308EEBB1DFE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5BF7DC7CD9FC9E4BFEC62D4AD50322 /* SRCountdownTimer-dummy.m in Sources */,
-				0A9F25D61A39264130531D8B5CCA3AF3 /* SRCountdownTimer.swift in Sources */,
+				861CC7C2A9799232B3B183B7D60C6648 /* Pods-ProyextoValizas-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FC9E18D4651552C8134662CF02BA779 /* PBXTargetDependency */ = {
+		9A0A99E6ABF8EE812A29344C18C3A829 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SRCountdownTimer;
-			target = C5CDCAE394BA2438B8DF5B11F614C579 /* SRCountdownTimer */;
-			targetProxy = BB02875189BBE04908BE661E95A23FCC /* PBXContainerItemProxy */;
+			target = 6156EFAB7AC07310289848859BF612D9 /* SRCountdownTimer */;
+			targetProxy = AB3B80BC2A3BFA9C74619D95F8407ED2 /* PBXContainerItemProxy */;
+		};
+		DFD3523FD1D75BDAEB776ACBD9650FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 77A2654C95FB95849F3018637F522C9B /* PBXContainerItemProxy */;
+		};
+		E6D94AE3C1C1047B849E408A93C3B61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */;
+			targetProxy = 1DD9AF86E455690401BFBD0A71266DD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,6 +790,37 @@
 				PRODUCT_NAME = Pods_ProyextoValizasTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15C069F155AD7CFEFD1E42E043D24C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E5724DB342482D2037347EFDB559C1 /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -521,7 +886,7 @@
 			};
 			name = Release;
 		};
-		2EFF4BD18D97A6A458B298A1C8805235 /* Debug */ = {
+		302D467E95E73FE34EEB9F80D2846F7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 540FB346462EB7121A29EAF6F938C851 /* Pods-ProyextoValizas.debug.xcconfig */;
 			buildSettings = {
@@ -587,9 +952,40 @@
 			};
 			name = Debug;
 		};
-		60FCD43EEE93753B4A0E5153F54F5A6B /* Release */ = {
+		4FD46B2551582DF47CD95CD77DDF6B34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */;
+			baseConfigurationReference = 079D16DE58DAA70B27DB3317D90BB026 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5580470228884DFA937CE0ECDC2E150F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADEDD4BFBCDEC75C18367D0210130F4 /* SRCountdownTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -610,16 +1006,45 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		88133775F40F2A7486BE5443FF7BAB7F /* Release */ = {
+		9B08F59FF51AFF627CB714A7411CD158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E5724DB342482D2037347EFDB559C1 /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A163D560D511705EEB7D003F219D1BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 988C364B6380606E8B1CFD7940566E15 /* Pods-ProyextoValizas.release.xcconfig */;
 			buildSettings = {
@@ -718,6 +1143,68 @@
 			};
 			name = Release;
 		};
+		D19459BBA4D29829D7678D9CDFE01E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079D16DE58DAA70B27DB3317D90BB026 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6DE813765D4B5ACACA746C480ACA44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADEDD4BFBCDEC75C18367D0210130F4 /* SRCountdownTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
+				PRODUCT_NAME = SRCountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -781,37 +1268,6 @@
 			};
 			name = Debug;
 		};
-		FA1BB39C1D369530AF6385E6C73D102A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
-				PRODUCT_NAME = SRCountdownTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -833,6 +1289,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		59B503DA5EEDCF014113BCCBDA8E7FC4 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302D467E95E73FE34EEB9F80D2846F7B /* Debug */,
+				A163D560D511705EEB7D003F219D1BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A76EFFF85B6B3E6B831DA241049A11E1 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizasTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -842,20 +1307,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8B4A15718853EAF8530D22E8BEAD182 /* Build configuration list for PBXNativeTarget "Pods-ProyextoValizas" */ = {
+		B4ABE3093F883A2BDB3233CFF32BA654 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EFF4BD18D97A6A458B298A1C8805235 /* Debug */,
-				88133775F40F2A7486BE5443FF7BAB7F /* Release */,
+				5580470228884DFA937CE0ECDC2E150F /* Debug */,
+				D6DE813765D4B5ACACA746C480ACA44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8D0A4E00F5DCA724A9182CB22E0E094 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */ = {
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA1BB39C1D369530AF6385E6C73D102A /* Debug */,
-				60FCD43EEE93753B4A0E5153F54F5A6B /* Release */,
+				D19459BBA4D29829D7678D9CDFE01E64 /* Debug */,
+				4FD46B2551582DF47CD95CD77DDF6B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F118B0FA84AC9116AB2E480C302C3999 /* Build configuration list for PBXNativeTarget "nanopb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B08F59FF51AFF627CB714A7411CD158 /* Debug */,
+				15C069F155AD7CFEFD1E42E043D24C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
