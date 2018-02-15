@@ -20,7 +20,7 @@ target 'ProyextoValizas' do
 
 	
 pod 'SRCountdownTimer'
-
+pod 'Firebase/Core'
 
 
 end
