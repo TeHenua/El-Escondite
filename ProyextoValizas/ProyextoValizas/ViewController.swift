@@ -21,21 +21,21 @@ class ViewController: UIViewController, SRCountdownTimerDelegate {
     }
     
     
-    @IBAction func mantenerPulsado(_ sender: UIButton) {
+    
+    
+    @IBAction func cancelar(_ sender: UIButton) {
         //este es el que cancela la accion
         contadorSOS.start(beginingValue: 3)
         contadorSOS.pause()
-
-        
         
     }
     
-    @IBAction func cancelarPulsado(_ sender: UIButton) {
-        
+    
+    @IBAction func mantener(_ sender: UIButton) {
         //este boton es el que inicia
-         contadorSOS.start(beginingValue: 3)
-        
+        contadorSOS.start(beginingValue: 3)
     }
+    
     
     
     
